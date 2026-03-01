@@ -1,0 +1,20 @@
+{
+  "name": "ai-daily-digest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered RSS digest from top tech blogs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "digest": "npm run build --silent && node dist/scripts/digest.js"
+  },
+  "dependencies": {
+    "undici": "^5.28.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.57",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=16.17"
+  }
+}

@@ -1,0 +1,7 @@
+generated_imgs/
+node_modules/
+*.log
+.DS_Store
+dist/
+output/
+digest-*.md
